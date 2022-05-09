@@ -46,7 +46,10 @@ function retrieveBrewery(event) {
       $mainContent.append($info);
       $street.text(brewery.street);
       $info.append($street);
-      $city.text(brewery.city);
+      $city.text(
+        brewery.city + ", " + brewery.state + " " + brewery.postal_code
+      );
+
       $info.append($city);
       $phone.text(brewery.phone);
       $info.append($phone);
