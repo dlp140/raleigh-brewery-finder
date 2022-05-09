@@ -8,12 +8,13 @@ const URL =
 // === Element references ===
 
 // Define jQuery variables as jQuery references to HTML elements
-const $name = $("#name");
-const $street = $("#street");
-const $city = $("#city");
-const $state = $("#state");
-const $phone = $("#phone");
-const $website = $("#website_url");
+const $name = $("<h2>");
+const $info = $(".info");
+const $street = $("<li>");
+const $city = $("<li>");
+const $state = $("<li>");
+const $phone = $("<li>");
+const $website = $("<li>");
 const $findBreweryBtn = $("#breweryFinderBtn");
 const $mainContent = $("main");
 
@@ -39,8 +40,17 @@ function retrieveBrewery(event) {
     function (data) {
       console.log("Brewery has been retrieved");
       console.log(data);
-      $name.text(data.name);
+      $name.text("Hello");
       $mainContent.append($name);
+      $mainContent.append($info);
+      $street.text("data.street");
+      $info.append($street);
+      $city.text("data.city");
+      $info.append($city);
+      $phone.text("data.phone");
+      $info.append($phone);
+      $website.text("data.website_url");
+      $info.append($website);
     },
     function (error) {
       console.log("Something is wrong");
