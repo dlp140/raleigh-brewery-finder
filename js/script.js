@@ -24,32 +24,33 @@ $findBreweryBtn.on("click", retrieveBrewery);
 
 // === Functions ===
 
-// const findBrewery = () => {
-//   const randomBrewery = Math.floor(Math.random() * URL.length);
-// };
-
 // console.log($.ajax(URL));
 function retrieveBrewery(event) {
   // Prevents default of reloading page on each click of button
-  event.preventDefault();
+  //   event.preventDefault();
 
   // Remove child elements after event listener, prior to loading next brewery's information
   $mainContent.empty();
 
   $.ajax(URL).then(
     function (data) {
+      const randomBrewery = Math.floor(Math.random() * data.length);
+      const brewery = data[randomBrewery];
+
+      console.log(data.length);
       console.log("Brewery has been retrieved");
-      console.log(data);
-      $name.text("Hello");
+
+      //   console.log(data);
+      $name.text(brewery.name);
       $mainContent.append($name);
       $mainContent.append($info);
-      $street.text("data.street");
+      $street.text(brewery.street);
       $info.append($street);
-      $city.text("data.city");
+      $city.text(brewery.city);
       $info.append($city);
-      $phone.text("data.phone");
+      $phone.text(brewery.phone);
       $info.append($phone);
-      $website.text("data.website_url");
+      $website.text('<a href="$brewery.website_url">');
       $info.append($website);
     },
     function (error) {
@@ -57,4 +58,5 @@ function retrieveBrewery(event) {
       console.log(error);
     }
   );
+  //   console.log(data.length);
 }
