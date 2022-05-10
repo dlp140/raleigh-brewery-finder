@@ -4,6 +4,7 @@ body {
 
 header {
   height: 500px;
+  margin-top: -20px;
   width: auto;
   text-align: center;
   background-image: url("https://i.imgur.com/pzZkH9W.jpg");
@@ -23,6 +24,7 @@ form {
 img {
   /* max-width: 200px; */
   max-height: 200px;
+  min-height: 200px;
   margin-bottom: 10px;
 }
 
