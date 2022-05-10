@@ -3,8 +3,12 @@ body {
 }
 
 header {
+  height: 500px;
+  width: auto;
   text-align: center;
-  background-color: rgb(151, 168, 185);
+  background-image: url("https://i.imgur.com/pzZkH9W.jpg");
+  background-repeat: no-repeat;
+  font-family: "Bangers";
 }
 
 main {
@@ -27,10 +31,21 @@ h1 {
   border: 10px red;
 }
 
+h2 {
+  font-family: "Bebas Neue";
+}
+
 button {
   margin-bottom: 10px;
 }
 
 #image {
   background-color: aqua;
+  justify-content: flex-start;
+}
+
+#form {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
