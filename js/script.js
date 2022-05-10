@@ -16,11 +16,11 @@ let URL =
 const $name = $("<h2>");
 const $info = $(".info");
 const $div = $("#img");
-const $street = $("<li>");
-const $city = $("<li>");
-const $state = $("<li>");
-const $phone = $("<li>");
-const $website = $("<li>");
+const $street = $("<p>");
+const $city = $("<p>");
+const $state = $("<p>");
+const $phone = $("<p>");
+const $website = $("<a>");
 const $findBreweryBtn = $("#breweryFinderBtn");
 const $mainContent = $("main");
 const $input = $(`input[type='text']`);
@@ -60,7 +60,8 @@ function retrieveBrewery(event) {
       $info.append($city);
       $phone.text(brewery.phone);
       $info.append($phone);
-      $website.text('<a href="$brewery.website_url">');
+      $website.attr("href", brewery.website_url);
+      $website.text(brewery.website_url);
       $info.append($website);
       if (brewery.name === "1323 R & D") {
         let $img = $("<img>");
