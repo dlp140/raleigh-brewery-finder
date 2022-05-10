@@ -1,3 +1,20 @@
 body {
   background-color: slategray;
 }
+
+header {
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  bottom: auto;
+}
+
+image {
+  max-width: 500px;
+}

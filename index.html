@@ -11,14 +11,14 @@
       crossorigin="anonymous"
       defer
     ></script>
-    <script src="/js/script.js" defer></script>
+    <script src="./js/script.js" defer></script>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
       integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Raleigh Brewery Finder</title>
   </head>
   <body>
@@ -27,8 +27,13 @@
       <button id="breweryFinderBtn">Find a Brewery!</button>
     </header>
     <main>
+      <div id="image"></div>
       <!-- Will use jQuery to append elements here -->
       <ul class="info" style="list-style-type: none"></ul>
     </main>
+    <form>
+      <input type="text" placeholder="Not from Raleigh?" />
+      <input type="submit" value="Try your city!" />
+    </form>
   </body>
 </html>
