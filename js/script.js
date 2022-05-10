@@ -65,15 +65,15 @@ function retrieveBrewery(event) {
       $info.append($website);
       if (brewery.name === "1323 R & D") {
         let $img = $("<img>");
-        $img.attr("src", "https://i.imgur.com/jdL6zVF.png");
+        $img.attr("src", "https://i.imgur.com/DHZUJ2v.png");
         $mainContent.append($img);
       } else if (brewery.name === "Big Boss Brewing Co") {
         let $img = $("<img>");
-        $img.attr("src", "https://i.imgur.com/HdALaEv.jpg");
+        $img.attr("src", "https://i.imgur.com/9owMF9V.png");
         $mainContent.append($img);
       } else if (brewery.name === "Boylan Bridge Brewpub") {
         let $img = $("<img>");
-        $img.attr("src", "https://i.imgur.com/7jLQKGk.jpg");
+        $img.attr("src", "https://i.imgur.com/MxQa77S.png");
         $mainContent.append($img);
       } else if (brewery.name === "Brewery Bhavana") {
         let $img = $("<img>");
@@ -81,7 +81,7 @@ function retrieveBrewery(event) {
         $mainContent.append($img);
       } else if (brewery.name === "Brice's Brewing Company") {
         let $img = $("<img>");
-        $img.attr("src", "https://i.imgur.com/qXqpjGn.jpg");
+        $img.attr("src", "https://i.imgur.com/HoIOETQ.png");
         $mainContent.append($img);
       } else if (brewery.name === "Clouds Brewing") {
         let $img = $("<img>");
@@ -97,11 +97,11 @@ function retrieveBrewery(event) {
         $mainContent.append($img);
       } else if (brewery.name === "Crank Arm Brewing Co") {
         let $img = $("<img>");
-        $img.attr("src", "https://i.imgur.com/VbCNT2y.jpg");
+        $img.attr("src", "https://i.imgur.com/Bu4lCDA.png");
         $mainContent.append($img);
       } else if (brewery.name === "Funguys Brewery") {
         let $img = $("<img>");
-        $img.attr("src", "https://i.imgur.com/9KOEPsn.jpg");
+        $img.attr("src", "https://i.imgur.com/VoWJwdf.png");
         $mainContent.append($img);
       } else if (brewery.name === "Gizmo Brew Works") {
         let $img = $("<img>");
@@ -113,15 +113,15 @@ function retrieveBrewery(event) {
         $mainContent.append($img);
       } else if (brewery.name === "Lonerider Brewing Co") {
         let $img = $("<img>");
-        $img.attr("src", "https://i.imgur.com/e4NULfQ.jpg");
+        $img.attr("src", "https://i.imgur.com/W8kxULy.png");
         $mainContent.append($img);
       } else if (brewery.name === "Lynnwood Brewing Concern") {
         let $img = $("<img>");
-        $img.attr("src", "https://i.imgur.com/Piv7g9U.jpg");
+        $img.attr("src", "https://i.imgur.com/0mgDWGU.png");
         $mainContent.append($img);
       } else if (brewery.name === "Lynnwood Brewing Concern") {
         let $img = $("<img>");
-        $img.attr("src", "https://i.imgur.com/Piv7g9U.jpg");
+        $img.attr("src", "https://i.imgur.com/0mgDWGU.png");
         $mainContent.append($img);
       } else if (brewery.name === "NC State Brewery") {
         let $img = $("<img>");
@@ -129,15 +129,15 @@ function retrieveBrewery(event) {
         $mainContent.append($img);
       } else if (brewery.name === "Neuse River Brewing Company") {
         let $img = $("<img>");
-        $img.attr("src", "https://i.imgur.com/du4aLMy.jpg");
+        $img.attr("src", "https://i.imgur.com/STPWJQ8.png");
         $mainContent.append($img);
       } else if (brewery.name === "Nickelpoint Brewing Co") {
         let $img = $("<img>");
-        $img.attr("src", "https://i.imgur.com/5LLOlpZ.jpg");
+        $img.attr("src", "https://i.imgur.com/6YmA4XS.png");
         $mainContent.append($img);
       } else if (brewery.name === "Oak and Dagger Public House") {
         let $img = $("<img>");
-        $img.attr("src", "https://i.imgur.com/U0aLXfP.jpg");
+        $img.attr("src", "https://i.imgur.com/o1nSZ1Z.png");
         $mainContent.append($img);
       } else if (brewery.name === "Raleigh Brewing Company") {
         let $img = $("<img>");
@@ -145,11 +145,11 @@ function retrieveBrewery(event) {
         $mainContent.append($img);
       } else if (brewery.name === "Sub Noir Brewing Company") {
         let $img = $("<img>");
-        $img.attr("src", "https://i.imgur.com/wgQb0eX.jpg");
+        $img.attr("src", "https://i.imgur.com/SGfAkwR.png");
         $mainContent.append($img);
       } else if (brewery.name === "Tobacco Road Brewery") {
         let $img = $("<img>");
-        $img.attr("src", "https://i.imgur.com/05WcrR1.jpg");
+        $img.attr("src", "https://i.imgur.com/Yur0hr3.png");
         $mainContent.append($img);
       } else if (brewery.name === "Trophy Brewing Company") {
         let $img = $("<img>");

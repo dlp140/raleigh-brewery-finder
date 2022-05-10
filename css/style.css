@@ -30,3 +30,7 @@ h1 {
 button {
   margin-bottom: 10px;
 }
+
+#image {
+  background-color: aqua;
+}
