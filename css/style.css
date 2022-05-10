@@ -1,9 +1,10 @@
 body {
-  background-color: rgb(151, 168, 185);
+  background-color: rgb(198, 210, 222);
 }
 
 header {
   text-align: center;
+  background-color: rgb(151, 168, 185);
 }
 
 main {
@@ -12,13 +13,20 @@ main {
 
 form {
   text-align: center;
-  bottom: auto;
+  margin-bottom: 10px;
 }
 
-/* image {
-  max-width: 500px;
-} */
+img {
+  /* max-width: 200px; */
+  max-height: 200px;
+  margin-bottom: 10px;
+}
 
 h1 {
   font-size: 100px;
+  border: 10px red;
+}
+
+button {
+  margin-bottom: 10px;
 }
