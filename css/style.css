@@ -24,11 +24,12 @@ header {
 
 main {
   /* background-color: green; */
-  text-align: center;
+  /* align-items: left; */
   grid-area: info;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
+  margin-left: 20px;
 }
 
 #form {
@@ -75,5 +76,6 @@ button {
   display: flex;
   /* background-color: yellow; */
   align-items: center;
-  justify-content: center;
+  justify-content: right;
+  margin-right: 20px;
 }
