@@ -76,11 +76,11 @@ function retrieveBrewery(event) {
         $div.prepend($img);
       } else if (brewery.name === "Boylan Bridge Brewpub") {
         let $img = $("<img>");
-        $img.attr("src", "https://i.imgur.com/MxQa77S.png");
+        $img.attr("src", "https://i.imgur.com/9sUZJvT.png");
         $div.prepend($img);
       } else if (brewery.name === "Brewery Bhavana") {
         let $img = $("<img>");
-        $img.attr("src", "https://i.imgur.com/cjBGvjH.png");
+        $img.attr("src", "https://i.imgur.com/MGVChIf.png");
         $div.prepend($img);
       } else if (brewery.name === "Brice's Brewing Company") {
         let $img = $("<img>");
@@ -92,7 +92,7 @@ function retrieveBrewery(event) {
         $div.prepend($img);
       } else if (brewery.name === "Collection Brewing Company") {
         let $img = $("<img>");
-        $img.attr("src", "");
+        $img.attr("src", "https://i.imgur.com/Llgmyhc.png");
         $div.prepend($img);
       } else if (brewery.name === "Compass Rose") {
         let $img = $("<img>");

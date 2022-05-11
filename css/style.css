@@ -6,16 +6,21 @@ body {
   grid-template-rows: 1fr 1.5fr 0.25fr;
   grid-template-areas:
     "header header"
+    /* "button button" */
     "images info"
     "form form";
 }
 
 header {
   grid-area: header;
-  height: 500px;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
   margin-top: -20px;
   width: auto;
   text-align: center;
+  justify-content: space-between;
+  align-items: center;
   background-image: url("https://i.imgur.com/pzZkH9W.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -50,6 +55,7 @@ img {
 
 h1 {
   font-size: 100px;
+  /* text-align: left; */
   /* border: 10px red; */
 }
 
@@ -58,9 +64,15 @@ h2 {
 }
 
 button {
+  /* grid-area: button; */
   margin-bottom: 10px;
-  display: flex;
-  justify-content: center;
+  height: 30px;
+  width: 150px;
+  /* display: flex; */
+  /* align-self: flex-end; */
+  /* justify-self: center; */
+  /* flex-direction: column-reverse; */
+  /* justify-content: center; */
 }
 
 #image {
@@ -78,4 +90,16 @@ button {
   align-items: center;
   justify-content: right;
   margin-right: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.75fr 0.75fr 0.25fr;
+    grid-template-areas:
+      "header"
+      "images"
+      "info"
+      "form";
+  }
 }
