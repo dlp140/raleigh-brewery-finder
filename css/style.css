@@ -1,36 +1,55 @@
 body {
   background-color: rgb(198, 210, 222);
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1.5fr 0.25fr;
+  grid-template-areas:
+    "header header"
+    "images info"
+    "form form";
 }
 
 header {
+  grid-area: header;
   height: 500px;
   margin-top: -20px;
   width: auto;
   text-align: center;
   background-image: url("https://i.imgur.com/pzZkH9W.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   font-family: "Bangers";
 }
 
 main {
+  /* background-color: green; */
   text-align: center;
+  grid-area: info;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-form {
+#form {
+  grid-area: form;
   text-align: center;
   margin-bottom: 10px;
+  margin-top: 20px;
+  /* background-color: red; */
 }
 
 img {
   /* max-width: 200px; */
-  max-height: 200px;
-  min-height: 200px;
+  max-height: 300px;
+  /* min-height: 250px; */
+  max-width: 300px;
   margin-bottom: 10px;
 }
 
 h1 {
   font-size: 100px;
-  border: 10px red;
+  /* border: 10px red; */
 }
 
 h2 {
@@ -39,15 +58,22 @@ h2 {
 
 button {
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 #image {
-  background-color: aqua;
-  justify-content: flex-start;
+  grid-area: images;
+  /* background-color: aqua; */
 }
 
-#form {
-  text-align: center;
-  margin-bottom: 10px;
-  margin-top: 20px;
+.info {
+  /* background-color: blue; */
+}
+
+.image {
+  display: flex;
+  /* background-color: yellow; */
+  align-items: center;
+  justify-content: center;
 }
