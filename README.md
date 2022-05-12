@@ -4,12 +4,12 @@
 
 <img src='./images/Initial.png' alt='Initial Page'>
 <img src='./images/Loaded.png' alt='Loaded Data'>
-<img src='./images/MobileIntial.png' alt='Intial Mobile Page'>
-<img src='./images/MobileLoaded' alt='Loaded Mobile Page'>
+<img src='./images/MobileInitial.png' alt='Intial Mobile Page'>
+<img src='./images/MobileLoaded.png' alt='Loaded Mobile Page'>
 
 ## Description
 
-The Raleigh Brewery Finder is a
+The Raleigh Brewery Finder is an app designed to help users find a randomized brewery in Raleigh, NC and provided basic information (name, address, phone number, website, and logo).
 
 ## Technologies Used
 
