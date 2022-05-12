@@ -117,6 +117,7 @@ button {
   }
   h1 {
     color: whitesmoke;
+    font-size: 70px;
   }
   .image {
     display: flex;
@@ -136,5 +137,10 @@ button {
       "images"
       "info"
       "form";
+  }
+}
+@media only screen and (max-width: 379px) {
+  h1 {
+    font-size: 50px;
   }
 }
