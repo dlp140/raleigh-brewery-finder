@@ -92,8 +92,36 @@ button {
   margin-right: 20px;
 }
 
-@media only screen and (max-width: 800px) {
-  .container {
+@media only screen and (max-width: 600px) {
+  body {
+    height: 100vh;
+    /* background-color: green; */
+  }
+  header {
+    grid-area: header;
+    height: 35vh;
+    background-size: cover;
+  }
+
+  #image {
+    grid-area: images;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  .image {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin
+  }
+  img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  body {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 0.75fr 0.75fr 0.25fr;
     grid-template-areas:
