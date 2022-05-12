@@ -116,6 +116,7 @@ button {
   main {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: auto;
   }
   h1 {
@@ -125,12 +126,14 @@ button {
   .image {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: auto;
     margin-top: 20px;
   }
   img {
     max-width: 200px;
     max-height: 200px;
+    margin-bottom: 0px;
   }
   body {
     grid-template-columns: 1fr;

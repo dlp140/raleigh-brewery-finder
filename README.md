@@ -1,6 +1,6 @@
 # Raleigh Brewery Finder
 
-#### An app designed to help users find a brewery in Raleigh by click a button that provides basic information of a randomized brewery
+#### An app designed to help users find a brewery in Raleigh by clicking a button that provides basic information of a randomized brewery
 
 <img src='./images/Initial.png' alt='Initial Page'>
 <img src='./images/Loaded.png' alt='Loaded Data'>
@@ -35,9 +35,8 @@ The Raleigh Brewery Finder is an app designed to help users find a randomized br
 ## Project's Future
 
 - Users will be able to enter their city into the form at the bottom and click the button to load randomized breweries from their city
-
-* Added landing page that will provide basic instruction on how to best utilize the app
-* Added modals to make for a more engaging experience
+- Added landing page that will provide basic instruction on how to best utilize the app
+- Added modals to make for a more engaging experience
 
 ## Deployed Link
 
