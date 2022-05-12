@@ -91,7 +91,11 @@ button {
   justify-content: right;
   margin-right: 20px;
 }
-
+@media only screen and (max-width: 826px) {
+  h1 {
+    color: whitesmoke;
+  }
+}
 @media only screen and (max-width: 600px) {
   body {
     height: 100vh;
@@ -111,11 +115,14 @@ button {
     justify-content: center;
     margin: auto;
   }
+  h1 {
+    color: whitesmoke;
+  }
   .image {
     display: flex;
     justify-content: center;
     margin: auto;
-    margin
+    margin-top: 100px;
   }
   img {
     max-width: 200px;
