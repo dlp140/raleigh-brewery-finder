@@ -1,14 +1,6 @@
-// alert("JavaScript is working");
-
 // === Variables ===
 let URL =
   "https://api.openbrewerydb.org/breweries?by_city=raleigh&per_page=100&page=1";
-// console.log(URL);
-// const newFirstURL = "https://api.openbrewerydb.org/breweries?by_city=";
-// const newLastURL = "&per_page=100&page=1";
-// let userInput = $input.val();
-// console.log(userInput);
-// console.log(newFirstURL + userInput + newLastURL);
 
 // === Element references ===
 
@@ -24,16 +16,12 @@ const $phone = $("<p>");
 const $website = $("<a>");
 const $findBreweryBtn = $("#breweryFinderBtn");
 const $mainContent = $(".list");
-// const $input = $(`input[type='text']`);
 const $newCityForm = $("#city");
 
 // === Event Listeners ===
-
 $findBreweryBtn.on("click", retrieveBrewery);
 
 // === Functions ===
-
-// console.log($.ajax(URL));
 function retrieveBrewery(event) {
   // Prevents default of reloading page on each click of button
   //   event.preventDefault();
@@ -49,8 +37,6 @@ function retrieveBrewery(event) {
 
       console.log(data.length);
       console.log("Brewery has been retrieved");
-
-      //   console.log(data);
       $name.text(brewery.name);
       $mainContent.append($name);
       $mainContent.append($info);
@@ -59,7 +45,6 @@ function retrieveBrewery(event) {
       $city.text(
         brewery.city + ", " + brewery.state + " " + brewery.postal_code
       );
-
       $info.append($city);
       $phone.text(brewery.phone);
       $info.append($phone);
@@ -165,7 +150,4 @@ function retrieveBrewery(event) {
       console.log(error);
     }
   );
-  //   console.log(data.length);
 }
-
-// console.log(newFirstURL + userInput + newLastURL);
