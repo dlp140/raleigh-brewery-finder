@@ -4,8 +4,8 @@
 
 <img src='./images/Initial.png' alt='Initial Page'>
 <img src='./images/Loaded.png' alt='Loaded Data'>
-<img src='./images/MobileInitial.png' alt='Intial Mobile Page'>
-<img src='./images/MobileLoaded.png' alt='Loaded Mobile Page'>
+<img src='./images/SmallMobileInitial.png' alt='Intial Mobile Page'>
+<img src='./images/SmallMobileLoaded.png' alt='Loaded Mobile Page'>
 
 ## Description
 
