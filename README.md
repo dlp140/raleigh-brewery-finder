@@ -18,6 +18,9 @@ The Raleigh Brewery Finder is an app designed to help users find a randomized br
 - JavaScript
 - jQuery
 - AJAX
+- Google Fonts
+- Photoshop
+- Open Brewery DB API
 
 ## Features
 
